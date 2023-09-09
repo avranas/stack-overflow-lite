@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Focus",
+  "name": "Stack Overflow Lite",
   "version": "1.0",
-  "description": "Makes YouTube less distracting",
+  "description": "Makes Stack Overflow less distracting",
   "content_scripts": [
     {
-      "matches": ["https://www.youtube.com/*"],
+      "matches": ["https://stackoverflow.com/*"],
       "js": ["jquery-3.1.1.min.js", "./main.js"],
       "css": ["style.css"]
     }
